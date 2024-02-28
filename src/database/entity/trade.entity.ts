@@ -1,0 +1,42 @@
+import { Item } from 'dynamoose/dist/Item';
+
+export class TradeEntity extends Item {
+  asset_class: string;
+  position_size: number;
+  points_captured: number;
+  trade_pnl: number;
+  position: string;
+  buy_sell: string;
+  trade_remark: string;
+  trade_karma: string;
+  trade_date: string;
+  holding_trade_type: string;
+  trade_charges: number;
+  trading_account: string;
+  stop_loss: number;
+  trade_target: number;
+  id: string;
+  trade_conviction: string;
+  strategy_used: string;
+  trade_risk: string;
+  reason_for_trade: string;
+  percentage_of_account_risked: number;
+  image: string;
+  trade_slippage: number;
+  trade_penalties: number;
+  net_roi: number;
+  trade_customizable: string;
+  opening_balance: number;
+  trade_tags: string;
+  user_id: string;
+  comment: string;
+  dynamicColumn: any[];
+  emotion_influence: string;
+  follow_plan: string;
+  confidence_on_decisions: string;
+  experience_regret: string;
+  take_unnecessary_risks: string;
+  feel_anxious_or_stressed: string;
+  attached_or_averse_to_stocks: string;
+  ideas_for_future_improvements: string;
+}
